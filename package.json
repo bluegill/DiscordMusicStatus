@@ -1,0 +1,12 @@
+{
+  "name": "DiscordMusicStatus",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "pm2 start main.js --name MusicStatus",
+    "stop": "pm2 stop MusicStatus"
+  },
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
